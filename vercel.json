@@ -1,14 +1,3 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "app/api/*", 
-      "use": "@vercel/node"
-    }
-  ],
-  "build": {
-    "env": {
-      "PRISMA_GENERATE": "1" 
-    }
-  }
 }
