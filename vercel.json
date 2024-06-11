@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "app/api/*", // Path to your API directory
+      "use": "@vercel/node"
+    }
+  ],
+  "build": {
+    "env": {
+      "PRISMA_GENERATE": "1" // Set PRISMA_GENERATE environment variable to trigger Prisma generation
+    }
+  }
+}
