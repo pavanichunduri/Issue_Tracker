@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "path/to/your/api", // Path to your API directory
+      "src": "app/api/*", // Path to your API directory
       "use": "@vercel/node"
     }
   ],
